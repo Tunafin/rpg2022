@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    text-indent: 32px;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+h2 {
+    border-left: red 5px solid;
+    border-bottom: red 5px solid;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.custom-img {
+    width: 380px;
+    border: gray 5px solid;
+}
+
+.custom-img:hover {
+    border-color: pink;
+}
