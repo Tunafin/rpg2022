@@ -1,0 +1,47 @@
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2;
+}
+
+.container .area {
+    max-width: 960px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.header-area {
+    border: black solid 1px;
+    padding: 32px;
+}
+
+.content-area {
+    border: red solid 2px;
+    padding: 24px;
+    height: 480px;
+}
+
+.content-area p/*:not(:last-child)*/ {
+    margin-bottom: 24px;
+}
+
+.content-area a {
+    display: inline-block;
+    border: none;
+    padding: 8px 32px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.content-area a:hover {
+    background-color: #000;
+}
+
+.footer-area {
+    background-color: pink;
+    padding: 15px 0;
+}
+
+.footer-area p {
+    text-align: center;
+}
