@@ -1,12 +1,12 @@
 .container {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.2;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .container .area {
-    max-width: 960px;
     box-sizing: border-box;
-    margin: 0 auto;
 }
 
 .header-area {
@@ -20,7 +20,10 @@
     height: 480px;
 }
 
-.content-area p/*:not(:last-child)*/ {
+.content-area p
+
+/*:not(:last-child)*/
+    {
     margin-bottom: 24px;
 }
 
