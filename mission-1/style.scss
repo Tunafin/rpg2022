@@ -1,0 +1,190 @@
+/**
+  
+ */
+
+$main-width: 940px;
+
+$theme-green: #3F5D45;
+$theme-gray: #EAF0ED;
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    width: 1024px;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: PingFang TC;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: $main-width;
+    display: flex;
+    //justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 0;
+
+    .logo-title {
+        height: 40px;
+    }
+
+    &-menu {
+        display: flex;
+
+        a {
+            font-size: 16px;
+            color: $theme-green;
+            margin-right: 60px;
+        }
+    }
+
+    .logo-cart {
+        margin-left: 12px;
+    }
+}
+
+.banner {
+    width: $main-width;
+    margin-bottom: 60px;
+}
+
+.content {
+    width: $main-width;
+    display: flex;
+    justify-content: space-between;
+
+    .product-menu-wrapper {
+        width: 300px;
+
+        h2 {
+            padding: 16px 0;
+            text-align: center;
+            font-size: 24px;
+            line-height: 33px;
+            background-color: $theme-green;
+            color: $theme-gray;
+        }
+
+        li {
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid $theme-gray;
+
+            a {
+                padding: 16px 0;
+                display: inline-block;
+                width: inherit;
+                text-align: center;
+                font-size: 24px;
+                line-height: 33px;
+                color: $theme-green;
+
+                &:hover {
+                    background-color: $theme-gray;
+                }
+            }
+        }
+
+    }
+
+    .product-item-container {
+        width: 620px;
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .product-card {
+            display: flex;
+            flex-direction: column;
+
+            position: relative;
+
+            .product-info {
+                box-sizing: border-box;
+                display: flex;
+
+                .product-name {
+                    flex: 1 1 173px;
+                    border-left: 1px solid $theme-gray;
+                    border-right: 1px solid $theme-gray;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: $theme-green;
+                    text-align: center;
+                    padding: 14px 0;
+                }
+
+                .product-price {
+                    flex: 1 1 auto;
+                    border-right: 1px solid $theme-gray;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: $theme-green;
+                    text-align: center;
+                    padding: 14px 0;
+                }
+            }
+
+            .add-to-cart {
+                padding: 16px 0;
+                display: inline-block;
+                width: inherit;
+                text-align: center;
+                font-size: 24px;
+                line-height: 33px;
+                color: $theme-green;
+                background-color: $theme-gray;
+
+                &:hover {
+                    transform: scale(1.02);
+                }
+            }
+
+            .favorite-icon {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+
+            .chip {
+                box-sizing: border-box;
+                width: 36px;
+                height: 107px;
+                padding: 10px;
+                position: absolute;
+                top: 0;
+                left: 20px;
+                line-height: 20px;
+                color: $theme-gray;
+                background-color: $theme-green;
+            }
+        }
+    }
+
+    .paginator {
+        display: flex;
+        justify-content: end;
+
+        margin-bottom: 60px;
+
+        a {
+            width: 60px;
+            height: 60px;
+            border: 1px solid #EAF0ED;
+            color: $theme-green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+    }
+}

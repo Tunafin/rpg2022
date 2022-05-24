@@ -1,0 +1,224 @@
+/**
+  
+ */
+a {
+  text-decoration: none;
+}
+
+.page {
+  width: 1024px;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: PingFang TC;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header {
+  width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+.header .logo-title {
+  height: 40px;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-menu a {
+  font-size: 16px;
+  color: #3F5D45;
+  margin-right: 60px;
+}
+
+.header .logo-cart {
+  margin-left: 12px;
+}
+
+.banner {
+  width: 940px;
+  margin-bottom: 60px;
+}
+
+.content {
+  width: 940px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .product-menu-wrapper {
+  width: 300px;
+}
+
+.content .product-menu-wrapper h2 {
+  padding: 16px 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  background-color: #3F5D45;
+  color: #EAF0ED;
+}
+
+.content .product-menu-wrapper li {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #EAF0ED;
+}
+
+.content .product-menu-wrapper li a {
+  padding: 16px 0;
+  display: inline-block;
+  width: inherit;
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  color: #3F5D45;
+}
+
+.content .product-menu-wrapper li a:hover {
+  background-color: #EAF0ED;
+}
+
+.content .product-item-container {
+  width: 620px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.content .product-item-container .product-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.content .product-item-container .product-card .product-info {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .product-item-container .product-card .product-info .product-name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 173px;
+          flex: 1 1 173px;
+  border-left: 1px solid #EAF0ED;
+  border-right: 1px solid #EAF0ED;
+  font-size: 20px;
+  line-height: 28px;
+  color: #3F5D45;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.content .product-item-container .product-card .product-info .product-price {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  border-right: 1px solid #EAF0ED;
+  font-size: 20px;
+  line-height: 28px;
+  color: #3F5D45;
+  text-align: center;
+  padding: 14px 0;
+}
+
+.content .product-item-container .product-card .add-to-cart {
+  padding: 16px 0;
+  display: inline-block;
+  width: inherit;
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  color: #3F5D45;
+  background-color: #EAF0ED;
+}
+
+.content .product-item-container .product-card .add-to-cart:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.content .product-item-container .product-card .favorite-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.content .product-item-container .product-card .chip {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 36px;
+  height: 107px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  line-height: 20px;
+  color: #EAF0ED;
+  background-color: #3F5D45;
+}
+
+.content .paginator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-bottom: 60px;
+}
+
+.content .paginator a {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #EAF0ED;
+  color: #3F5D45;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
